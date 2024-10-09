@@ -6,3 +6,6 @@ cp -r ./kingroon_kp3s_pro_v2/build/ ./
 Warning: There is some changes I've made inside customize-image.sh script about jammy distribution so it will works only for this distribution. It makes some actions like create mks user, install kiauh, klipper, moonraker, fluidd. Copying configs and dtb files. So this image should works right after booting. Maybe you will need to make some changes.
 You can write this image to usb flash drive and test it like it was written in article (uboot promtp, setenv etc).
 I didn't fully check it just write to usb flash drive and boot. EMMC is available.
+
+source:
+https://github.com/Lebensgefahr/kingroon_kp3s_pro_v2
